@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary{
+  background-color: #37517e !important;
+}
+
+.body-text-color{
+  color: #aeb9cb;
+}
+
+
+.nav-btn{
+  border-radius: 30px;
+  width: 120px;
+  border: 2px solid #47b2e4;
+  background-color: #37517e;
+  height: 45px;
+  color: white;
+}
+
+.nav-btn:hover{
+  background-color: #47b2e4;
+  color: white;
+}
+
+.nav-text:hover{
+  color: #47b2e4;
+}
+
+.nav-link:hover{
+  color: #47b2e4;
+}
+
+.landing-btn-filled{
+  background-color: #47b2e4;
+  border-radius: 30px;
+  width: 140px;
+  height: 45px;
+  color: white;
+  border: none;
+}
+
+.landing-btn-outline{
+  background-color: #37517e;
+  border-radius: 30px;
+  width: 180px;
+  height: 45px;
+  color: white;
+  border: none;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-circle-play{
+  font-size: 32px;
+}
+
+.fa-circle-play:hover{
+  color: #47b2e4;
+}
+
+.image-flow{
+  animation: Float 2s ease-in-out alternate infinite;
+}
+
+@keyframes Float {
+  0%{
+    transform: translateY(3%);
+  }
+  100%{
+    transform: translateY(-3%);
+  }
+}
+
+.slide-image{
+  width: 100px;
+
+}
+
+#new hr{
+  width: 40px;
+}
+#new .line-2{
+  border: 3px solid #3781a7;
+}
+
+.learn-more-button{
+  width: 150px;
+  height: 40px;
+  border: 2px solid #47b2e4;
+  color: #47b2e4;
+  background-color: white;
+}
+
+.learn-more-button:hover{
+  background-color: #47b2e4;
+  color: white;
+}
+
+.brand-color-text{
+  color: #37517e;
+}
